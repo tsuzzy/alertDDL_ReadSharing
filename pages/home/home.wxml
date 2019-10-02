@@ -1,0 +1,11 @@
+<view class="container">
+  <!--swipe block-->
+  <view class='swipeBlock'> 
+  </view>
+
+  <view class='criticsBlock'></view>
+  
+  <view class='bottomNavi'></view>
+
+
+</view>
