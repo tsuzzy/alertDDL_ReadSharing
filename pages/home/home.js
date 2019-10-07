@@ -5,8 +5,26 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    background:['a','b','c'],
+    imgUrls:[
+      { image:'https://cn.bing.com/th?id=OIP.Kr1fBUfR3Ljh0fVE-PC4DgHaEo&pid=Api&rs=1'},
+      { image:'https://cn.bing.com/th?id=OIP.JJgAnPLYP4_BzxlIzFIESgHaEo&pid=Api&rs=1'},
+      { image:'https://cn.bing.com/th?id=OIP._5a9Ws1nonLmeVNiuU386gHaFj&pid=Api&rs=1'}
+    ],
+    indicatorDots: true,
+    autoplay: false,
+    vertical: false,
+    interval:5000,
+    duration:500,
   },
+
+
+  toMap: function () {
+    wx.navigateTo({
+      url: '../map/map'
+    })
+  },
+
 
   /**
    * 生命周期函数--监听页面加载

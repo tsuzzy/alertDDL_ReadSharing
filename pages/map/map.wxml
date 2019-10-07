@@ -1,0 +1,16 @@
+<view id="container">
+  <view id="setBanner">
+    <text id="setText">{{banner}}</text>
+  </view>
+  <map 
+    id="myMap" 
+    longitude="121.89691" 
+    latitude="30.882894" 
+    scale='14' 
+    subkey="GUKBZ-QIC6W-DFKR3-O2HOJ-4V3XJ-R3FMF"
+    markers="{{markers}}"
+    polygons="{{polygons}}"
+    show-location
+    >
+  </map>
+</view>
