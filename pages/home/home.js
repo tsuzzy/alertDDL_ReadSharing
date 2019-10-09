@@ -21,7 +21,7 @@ Page({
 
   toMap: function () {
     wx.navigateTo({
-      url: '../map/map'
+      url: '../maps/maps'
     })
   },
 
